@@ -1,0 +1,81 @@
+
+  <view class="all">
+    <view class="mokuai"style="margin-top:10px">
+  <view class="page__hd">
+        <view class="page__title">游戏</view>
+        <view class="page__desc">测试版DEMO</view>
+    </view>
+ </view>
+  <view class="mokuai"style="margin-top:10px">
+    <view>
+      <image class="touxiang" src="../../images/user.png"></image>
+    </view>
+    <view class="info">
+      <text>姓名:</text>
+      <text>科目:</text>
+      <text>职位:</text>
+      <text>电话:</text>
+      <text>QQ:</text>
+    </view>
+  </view>
+  <view class="mokuai"style="margin-top:10px">
+    <view>
+      <image class="touxiang" src="../../images/user.png"></image>
+    </view>
+    <view class="info">
+      <text>姓名:</text>
+      <text>科目:</text>
+      <text>职位:</text>
+      <text>电话:</text>
+      <text>QQ:</text>
+    </view>
+  </view>
+  <view class="mokuai"style="margin-top:10px">
+    <view>
+      <image class="touxiang" src="../../images/user.png"></image>
+    </view>
+    <view class="info">
+      <text>姓名:</text>
+      <text>科目:</text>
+      <text>职位:</text>
+      <text>电话:</text>
+      <text>QQ:</text>
+    </view>
+  </view>
+  <view class="mokuai"style="margin-top:10px">
+    <view>
+      <image class="touxiang" src="../../images/user.png"></image>
+    </view>
+    <view class="info">
+      <text>姓名:</text>
+      <text>科目:</text>
+      <text>职位:</text>
+      <text>电话:</text>
+      <text>QQ:</text>
+    </view>
+  </view>
+  <view class="mokuai"style="margin-top:10px">
+    <view>
+      <image class="touxiang" src="../../images/user.png"></image>
+    </view>
+    <view class="info">
+      <text>姓名:</text>
+      <text>科目:</text>
+      <text>职位:</text>
+      <text>电话:</text>
+      <text>QQ:</text>
+    </view>
+  </view>
+  <view class="mokuai"style="margin-top:10px">
+    <view>
+      <image class="touxiang" src="../../images/user.png"></image>
+    </view>
+    <view class="info">
+      <text>姓名:</text>
+      <text>科目:</text>
+      <text>职位:</text>
+      <text>电话:</text>
+      <text>QQ:</text>
+    </view>
+  </view>
+</view>

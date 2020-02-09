@@ -1,0 +1,33 @@
+page{
+  background:rgba(211, 211, 211, 0.384);
+}
+.touxiang {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 50%;
+}
+
+.buju {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 44%;
+  text-align: center;
+  align-items: center;
+  padding:10px;
+}
+.biankuang {
+  border-left: 3px solid #FFF;
+  border-bottom: 3px solid #FFF;
+  border-top: 3px solid #FFF;
+  border-right: 3px solid #FFF;
+}
+.username{
+  font-size: 50rpx;
+  font-weight: bold;
+  color: #000;
+  text-align:center;
+}

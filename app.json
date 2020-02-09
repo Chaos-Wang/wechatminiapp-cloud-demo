@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/locate/locate_student/locate_student",
+    "pages/locate/locate_teacher/locate_teacher",    
+    "pages/locate/locate",
+    "pages/user/user",
+    "pages/share/share",
+    "pages/contect/contect",
+    "pages/login/personal/personal",
+    "pages/game/game",
+    "pages/share/find/find",
+    "pages/share/sharetool/sharetool",
+    "pages/share/find/search/search",
+    "pages/game/loading/loading",
+    "pages/locate/locate_teacher/show/show"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#999999",
+    "navigationBarTitleText": "程序冲冲冲",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/share/share",
+        "text": "共享资料",
+        "iconPath": "images/cloud.png",
+        "selectedIconPath": "images/cloud.png"
+      },
+      {
+        "pagePath": "pages/locate/locate",
+        "text": "签到",
+        "iconPath": "images/locate.png",
+        "selectedIconPath": "images/locate.png"
+      },
+      {
+        "pagePath": "pages/contect/contect",
+        "text": "联系老师",
+        "iconPath": "images/me1.png",
+        "selectedIconPath": "images/me1.png"
+      },
+      {
+        "pagePath": "pages/game/game",
+        "text": "小游戏",
+        "iconPath": "images/player.png",
+        "selectedIconPath": "images/player.png"
+      }
+    ]
+  }
+}

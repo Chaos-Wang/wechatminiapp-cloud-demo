@@ -1,0 +1,26 @@
+<!--pages/share/sharetool/sharetool.wxml-->
+<view class="page" xmlns:wx="http://www.w3.org/1999/xhtml">
+ <view class="weui-cells__title">表单</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">URL</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" bindinput='watchUrl' placeholder="请输入文件的下载URL"/>
+                </view>
+            </view>
+
+            <view class="weui-cell weui-cell_input weui-cell_vcode">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">科目</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" bindinput='watchType' placeholder="请输入文件的科目分类" />
+                </view>
+</view>
+</view>
+</view>
+<view class="weui-btn-area">
+            <button class="weui-btn" type="primary" bindtap="submit">确定</button>
+</view>

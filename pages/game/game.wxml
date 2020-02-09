@@ -1,0 +1,16 @@
+<view class="page">
+<view class="page__hd">
+        <view class="page__title">游戏</view>
+        <view class="page__desc">测试版DEMO</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-grids">
+            <block wx:for="{{grids}}" wx:key="*this">
+                <navigator url="./loading/loading" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="../../images/icon_tabbar.png" />
+                    <view class="weui-grid__label">示例</view>
+                </navigator>
+            </block>
+        </view>
+    </view>
+</view>

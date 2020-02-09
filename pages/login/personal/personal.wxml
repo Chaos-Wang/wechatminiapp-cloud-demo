@@ -1,0 +1,42 @@
+<view class="page" xmlns:wx="http://www.w3.org/1999/xhtml">
+ <view class="weui-cells__title">您还需要完善以下信息</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">班级</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" bindinput='watchClass' placeholder="请输入班级"/>
+                </view>
+            </view>
+
+            <view class="weui-cell weui-cell_input weui-cell_vcode">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">真实姓名</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" bindinput='watchRealname' placeholder="请输入真实姓名" />
+                </view>
+          
+          
+
+</view>
+</view>
+ <view class="weui-cells__title">用户类别</view>
+        <view class="weui-cells weui-cells_after-title">
+            <radio-group bindchange="radioChange">
+                <label class="weui-cell weui-check__label" wx:for="{{user_type}}" wx:key="value">
+                    <radio class="weui-check" value="{{item.value}}" checked="{{item.checked}}"/>
+
+                    <view class="weui-cell__bd">{{item.name}}</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-radio" wx:if="{{item.checked}}">
+                        <icon class="weui-icon-radio" type="success_no_circle" size="16"></icon>
+                    </view>
+                </label>
+            </radio-group>
+        </view>
+
+</view>
+            <view class="weui-btn-area">
+            <button class="weui-btn" type="primary" bindtap="submit">确定</button>
+</view>

@@ -1,0 +1,20 @@
+<!--pages/locate/locate_teacher/locate_teacher.wxml-->
+<view class="page__hd">
+        <view class="page__title">签到系统（教师端）</view>
+        <view class="page__desc">测试版DEMO</view>
+</view>
+
+<view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">签到码</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" bindinput='watchCode' placeholder="请输入签到码"/>
+                </view>
+            </view>
+         </view>
+<text>\n\n</text>
+<view class="button-sp-area">
+    <button class="weui-btn" type="primary" plain="true" bindtap="generate">生成签到码</button>
+</view>

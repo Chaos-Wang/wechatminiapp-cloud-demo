@@ -1,0 +1,9 @@
+<view class="page__hd">
+        <view class="page__title">共享资料</view>
+        <view class="page__desc">测试版DEMO</view>
+
+    </view>
+<view class="button-sp-area">
+            <button class="weui-btn" type="primary" plain="true" bindtap="tofind">资源检索</button>
+            <button class="weui-btn" type="primary" plain="true" bindtap="toupload">我要分享</button>
+</view>

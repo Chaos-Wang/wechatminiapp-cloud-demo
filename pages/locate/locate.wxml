@@ -1,0 +1,5 @@
+<view class="page__hd">
+        <view class="page__title">人数清点</view>
+        <view class="page__desc">测试版DEMO</view>
+
+    </view>

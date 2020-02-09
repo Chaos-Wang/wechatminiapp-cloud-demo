@@ -1,0 +1,32 @@
+<view>
+<view>
+  <image class="avatar" src='{{userInfo.avatarUrl}}' class="touxiang" style="margin-top:200rpx;"   ></image>
+  </view>
+  <view  class="username" >{{userInfo.nickName}}</view>
+
+  <view style='display:flex;flex:align-items:stretch;background-color:#FFF'></view>
+  
+<view style='display:flex;flex-wrap:wrap;'>
+    <view class='buju' catchtap='onlocate' style="border-left: 2px solid #FFF;border-bottom: 2px solid #FFF;border-top: 2px solid #FFF;background-color: #D3D3D3">
+      <a class="list-group-item" href="#">
+        <i class="fa fa-map-marker fa-fw fa-2x"></i>
+      </a>
+      <text style='font-size:30rpx;margin-top:10rpx '>位置共享</text>
+    </view>
+    <view class='buju' catchtap='onshare'style="border-left: 2px solid #FFF;border-bottom: 2px solid #FFF;border-top: 2px solid #FFF;border-right: 2px solid #FFF;background-color: #D3D3D3">
+      <a class="list-group-item" href="#">
+        <i class="fa fa-folder-open fa-fw fa-2x"></i></a>
+    <text style='font-size:30rpx;margin-top:10rpx '>文件共享</text>
+    </view>
+    <view class='buju' catchtap='ongame'style="border-left: 2px solid #FFF;border-bottom: 2px solid #FFF;background-color: #D3D3D3">
+      <a class="list-group-item" href="#">
+        <i class="fa fa-gamepad fa-fw fa-2x"></i></a>
+        <text style='font-size:30rpx;margin-top:10rpx '>小游戏</text>
+    </view>
+    <view class='buju' catchtap='onconnect'style="border-left: 2px solid #FFF;border-bottom: 2px solid #FFF;border-right: 2px solid #FFF;background-color: #D3D3D3">
+      <a class="list-group-item" href="#">
+        <i class="fa fa-user-circle fa-fw fa-2x"></i></a>
+        <text style='font-size:30rpx;margin-top:10rpx '>联系老师</text>
+    </view>
+</view>
+</view>

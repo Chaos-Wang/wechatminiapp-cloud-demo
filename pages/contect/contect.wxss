@@ -1,0 +1,24 @@
+.all{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding:5rpx;
+  font-size:10px;
+}
+.touxiang{
+  width: 200rpx;
+  height: 200rpx;
+  padding:15px;
+}
+.mokuai{
+  display:flex;
+  flex-direction:row;
+  border-bottom:15px solid rgba(211, 211, 211, 0.418);
+  padding:5px;
+}

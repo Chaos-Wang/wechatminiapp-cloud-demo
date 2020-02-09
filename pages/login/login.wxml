@@ -1,0 +1,13 @@
+<!--pages/me/me.wxml-->
+<view class='father'>
+    <view class='buju' style="border-left: 2px;border-bottom: 2px solid #FFF;background-color: #F8F8F8">
+    <label>
+      <image class='userTx' src='{{userTx ||defaultUrl }}'></image>
+      <button open-type='getUserInfo' bindgetuserinfo='getUserInfoHandler'></button>
+    </label>
+   
+    <view>
+      <text class='{{ username == "点击登录" ? "usernameDe":"username"}} '>{{username}}</text>
+    </view>
+    </view>
+</view>

@@ -1,0 +1,19 @@
+<view class="page__hd">
+        <view class="page__title">签到系统（教师端）</view>
+        <view class="page__desc">测试版DEMO</view>
+</view>
+
+<view class="weui-panel weui-panel_access">
+    <view class="weui-panel__bd">
+          <view class="weui-media-box weui-media-box_text">
+            <view class="weui-media-box__title weui-media-box__title_in-text">已签到</view>
+            <view class="weui-media-box__desc" wx:for="{{check_in}}" wx:for-item="i"> 
+                 {{i.check_in_name}}
+            </view>
+          </view>
+    </view>
+</view>
+
+            <view class="weui-btn-area">
+            <button class="weui-btn" type="primary" bindtap="end">结束签到</button>
+</view>
